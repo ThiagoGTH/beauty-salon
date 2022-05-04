@@ -34,10 +34,13 @@ const swiper = new Swiper('.swiper', {
   slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
     type: 'bullets'
   },
   mousewheel: true,
   keyboard: true,
+  speed: 1200,
+  loop: true,
 
   breakpoints: {
     // when window width is >= 767px
